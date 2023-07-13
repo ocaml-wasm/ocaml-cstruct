@@ -6,7 +6,7 @@
   (names cstruct_stubs))
  (wrapped false)
  (js_of_ocaml
-  (javascript_files cstruct.js))
+  (javascript_files cstruct.js) (wasm_files cstruct.wat))
  (modules cstruct cstruct_cap))
 
 (library
